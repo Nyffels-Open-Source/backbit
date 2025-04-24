@@ -1,0 +1,14 @@
+{
+  "name": "backbit",
+  "description": "Backup software",
+  "private": false,
+  "author": {
+    "email": "chesney@nyffels.be",
+    "name": "Nyffels BV",
+    "url": "https://nyffels.be"
+  },
+  "scripts": {
+    "docker-dev-up": "docker-compose -f ./infra/dev-docker-compose.yml up -d",
+    "docker-dev-down": "docker-compose -f ./infra/dev-docker-compose.yml down"
+  }
+}
