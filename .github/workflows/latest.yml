@@ -6,7 +6,7 @@ env:
 
 jobs:
   version:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     outputs:
       version: ${{ env.VERSION }}
 
